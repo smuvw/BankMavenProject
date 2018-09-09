@@ -10,7 +10,7 @@ public class LoginTestCase {
 		ChromeDriver driver = new ChromeDriver();
 		
 		driver.get("https://facebook.com");
-
+        driver.getTitle();
 	}
 
 }
